@@ -11,16 +11,14 @@ cd C:\temp\PartnerTTDRecorder_x86_x64.zip\amd64\TTD
  
 TTTracer.exe -initialize
 TTTracer.exe -dumpfull -attach “PID” -out C:\temp\TTTLog_01.run
- 
-You can find the PID of your Outlook client from task manager:
- 
- 
+<You can find the PID number of your Outlook client from Task Manager>:
+
+
 3.	Wait until you see the following window pop up (according to your machine performance, you might need wait for several mins).
  
  
 4.	Reproduce the problem.
-5.	Once the issue reproduced, uncheck the following option.
- 
+5.	Once the issue reproduced, uncheck the option "Tracking On".
  
 You will get the log in the same folder as TTT:
  
